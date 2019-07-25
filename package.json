@@ -1,0 +1,24 @@
+{
+    "name": "skeleton",
+    "version": "0.1.0",
+    "description": "A skeleton project for \"just writing typescript\" ",
+    "main": "hello.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.7",
+        "chai": "^4.2.0",
+        "mocha": "^6.2.0",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.5.3"
+    },
+    "scripts": {
+        "pretest": "tsc test/*Test.ts",
+        "test": "mocha"
+    },
+    "author": "",
+    "license": "GPL-3.0-or-later"
+}
