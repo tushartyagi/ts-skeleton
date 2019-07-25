@@ -1,2 +1,17 @@
 * TypeScript Project
 
+  How difficult or easy is it to actually start writing some code in TypeScript
+  without pulling in a few thousand packages and UI libraries? 
+
+  I primarily want to write TS a lot of times *without* doing UI stuff, and this
+  project hopes to do that without getting in my way.
+
+  This skeleton project allows one to write and test TS code without a lot of
+  ceremonies.
+
+* Usage
+
+  #+begin_src bash
+    git clone https://github.com/tushartyagi/ts-skeleton.git [some-project-name]
+  #+end_src
+
